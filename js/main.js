@@ -298,17 +298,17 @@ function bodyScrollingToggle(){
 
 /*-------------- hide all section except active --------------*/
 
-// (() =>{
+(() =>{
 
-// 	const section = document.querySelectorAll(".section");
-// 	section.forEach((section) =>{
-// 		if(!section.classList.contains("active")){
-// 			section.classList.add("hide");
-// 		}
-// 	})
+	const section = document.querySelectorAll(".section");
+	section.forEach((section) =>{
+		if(!section.classList.contains("active")){
+			section.classList.add("hide");
+		}
+	})
 	
 
-// })();
+})();
 
 
 window.addEventListener("load", () =>{
@@ -318,6 +318,7 @@ window.addEventListener("load", () =>{
 		document.querySelector(".preloader").style.display="none";
 	},600)
 })
+
 
 
 
